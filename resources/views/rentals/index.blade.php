@@ -11,7 +11,7 @@
         <div class='bg-white p-10 rounded-2xl max-w-3xl w-full'>
             <ul class="divide-y divide-gray-300">
                 @foreach($rentals as $rental)
-                    <li>Veicolo: {{ $rental->vehicle_model }} - Cliente: {{ $rental->customer_name }}</li>
+                    <li class='py-4'>Veicolo: {{ $rental->vehicle_model }} - Cliente: {{ $rental->customer_name }}</li>
                 @endforeach
             </ul>
         </div>

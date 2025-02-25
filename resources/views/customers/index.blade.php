@@ -11,7 +11,7 @@
         <div class='bg-white p-10 rounded-2xl max-w-3xl w-full'>
             <ul class="divide-y divide-gray-300">
                 @foreach($customers as $customer)
-                    <li>{{ $customer->name }} - {{ $customer->email }}</li>
+                    <li class='py-4'>{{ $customer->name }} - {{ $customer->email }}</li>
                 @endforeach
             </ul>
         </div>
